@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(183, 238, 174);
+  background: radial-gradient(
+    circle,
+    rgba(183, 238, 174, 1) 0%,
+    rgba(148, 222, 233, 1) 100%
+  );
+}
+
+#mainContainer {
+  min-height: 100vh;
+}
+
+#descricaoProduto {
+  resize: none;
+}

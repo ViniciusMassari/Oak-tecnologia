@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Cadastro de Produtos</title>
+</head>
+
+<body>
+    <main id="mainContainer" class="container d-flex p-2 justify-content-center align-items-center flex-column">
+        <div class="card p-5" id="formulario">
+            <p>Preencha as informações do produto</p>
+            <form action="" class="card p-3 d-flex flex-column justify-content-center align-items-center">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control text-bg-light" id="nome" placeholder="Nome do produto"
+                        required>
+                    <label for="floatingInput">Nome do Produto</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control text-bg-light" id="descricao" placeholder="Descrição..."
+                        required>
+                    <label for="floatingInput">Descrição do Produto</label>
+                </div>
+                <div class="form-floating mb-3">
+                    <input type="number" class="form-control text-bg-light" id="valor" placeholder="Valor do produto"
+                        required>
+                    <label for="floatingInput">Valor do Produto</label>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" checked aria-checked="true" class="form-check-input " id="disponivel">
+                    <label class="form-check-label" for="disponivel">Disponível para compra ?</label>
+                </div>
+                <button type="submit" class="btn btn-primary" id="enviar">Cadastrar Produto</button>
+            </form>
+        </div>
+    </main>
+
+</body>
+
+</html>
